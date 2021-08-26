@@ -1,0 +1,15 @@
+metadata contract
+    - stores all metadata
+    - 
+
+counter contract
+LC
+
+erc721 contract
+    - mintWithENS
+    - mintWithoutENS
+    - owner
+
+
+
+

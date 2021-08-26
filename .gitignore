@@ -1,0 +1,8 @@
+.env
+adresses.txt
+enscontroller.json
+test.json
+registry.sol
+transaction_history
+
+node_modules
