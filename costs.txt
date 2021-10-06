@@ -1,0 +1,21 @@
+At 50Gwei it would cost  310 Dollars to deploy the contract  (0.09 ETH)
+
+At 50Gwei it would cost  80 Dollars to deploy the library
+(0.024 ETH)
+
+At 50Gwei setting the PID root node would cost 15 Dollars 
+(0.0041 ETH)
+
+At 50Gwei setting initial Seed is optional and would cost (0.0035 ETH)
+12 Dollars
+
+At 50Gwei changing ownership on ENS would cost 5 Dollars 
+(0.0014 ETH)
+
+changing ownership back on the openPID contract costs 0.00191 ETH (7 USD)
+
+minting costs 0.01378 ETH (50 $)
+
+adding another author 0.0026 ETH (9 $)
+
+updating costs 0.0041 ETH (15 $)

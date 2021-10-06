@@ -1,0 +1,18 @@
+[
+    "constructor()",
+    "function deployer() view returns (address)",
+    "function ens() view returns (address)",
+    "function mainResolver() view returns (address)",
+    "function mint(string metadataStandard, string publicationType, string URL)",
+    "function openPidRoot() view returns (bytes32)",
+    "function parentPids(string, string) view returns (bytes32 parentNode, string parentString)",
+    "function pid() view returns (string)",
+    "function pidCount() view returns (uint256)",
+    "function pidNodes(uint256) view returns (bytes32)",
+    "function pidState(bytes32) view returns (uint256 x, uint256 a, uint256 c, uint256 m)",
+    "function pids(uint256) view returns (string)",
+    "function registerNewMetadataStandard(string metadataStandard, string URL, string[] _categories)",
+    "function rootSettable() view returns (bool)",
+    "function setRootAddress(bytes32 _openPidRoot)",
+    "function setTextRecord(bytes32 node, string key, string value)"
+]

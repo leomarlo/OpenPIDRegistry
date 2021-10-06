@@ -1,0 +1,88 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./styles/index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script charset="utf-8"
+            src="https://cdn.ethers.io/scripts/ethers-v4.min.js"
+            type="text/javascript">
+        </script> 
+    </head>
+    <body>
+            
+    <div class="container-fluid text-center">    
+        <div class="row navbar" style="text-align: center">
+            <div style="display: inline-block; width:48%">
+                <h2>Welcome to the OpenPID registry</h2>
+            </div>
+            <div style="display: inline-block; width:48%">
+                <button type="button" id="connect-btn" class="btn btn-success" style="width:30%; align-content: flex-end;">
+                    Connect to Web3
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-sm-12" id="main-panel" style="text-align: left;"> 
+                <hr>
+                <h3>Register new PID</h3>
+                <br>
+                <div id="metastandard-div">
+
+                    <label for="which-standard"
+                           style="width:18%">Metadata Standard:</label>
+                    <select name="which-standard" 
+                            id="which-standard"
+                            style="width:60%; height:30px; margin-top:2px; margin-bottom:2px">
+                        <option value="default">default</option>
+                    </select>
+
+                </div>
+                <div id="datatype-div">
+
+                    <label for="which-type"
+                           style="width:18%">Category:</label>
+                    <select name="which-type" 
+                            id="which-type"
+                            style="width:60%; height:30px; margin-top:2px; margin-bottom:2px">
+                        <!-- <option value="default">default</option> -->
+                    </select>
+
+                </div>
+                <div id="content-div">
+                    <label for="ipfs-input" 
+                           style="width:18%">IPFS</label>
+                    <input type="text"
+                           id="ipfs-input"
+                           placeholder="ipfs cid"
+                           style="width:60%; height:30px; margin-top:2px; margin-bottom:2px"> 
+                </div>
+                <br>
+                <div id="mint-div">
+                    <div type="text"
+                         id="ens-address"
+                         class="inputfield"
+                         style="width:78%; height:30px; margin-top:2px; margin-bottom:2px; margin-left:4px; display:inline-block"><a id="pid-link" href=""></a></div>
+                
+                    <br>
+                    <br>
+                    <button type="button" 
+                        id="mint-btn"
+                        class="btn btn-success"
+                        style="width:18%;margin-top:4px; margin-bottom:2px; display:inline-block">
+                    Mint
+                    </button>
+                </div>
+
+
+    
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="./index.js"></script>
+    </body>
+    </html>
+    

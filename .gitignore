@@ -1,9 +1,17 @@
+# sensitive or private environment files
 .env
+
+# test files
 adresses.txt
 enscontroller.json
-test.json
 test.js
 registry.sol
 transaction_history
 
+# hardhat and javascript configuration and cache files.
 node_modules
+cache
+.cache
+artifacts
+app/dist
+app/.cache*
